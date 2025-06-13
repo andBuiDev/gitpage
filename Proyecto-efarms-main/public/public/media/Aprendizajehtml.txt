@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granjas Solares - ONG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <style>
+        .carousel-inner {
+            max-height: 400px; /* Ajusta la altura del carrusel */
+        }
+        .carousel-item img {
+            height: 400px; /* Ajusta la altura de las imágenes */
+            object-fit: cover; /* Evita distorsiones */
+        }
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Granjas Solares</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="construccion.html">Construcción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aprendizaje.html">Aprendizaje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="casos_exito.html">Casos de Éxito</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://storage.googleapis.com/site.esss.co/8bd7b5da-thumb-blog-tendencias-de-tecnologia-nas-pesquisas-em-sustentabilidade-e-energia-renovavel.jpg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption text-white">
+                    <h3>Plantas</h3>
+                    <p>La planta solar más grande del mundo ocupa más de 56 km²
+                        La Bhadla Solar Park, en India, es la granja solar más grande del mundo, con una capacidad de 2.25 gigavatios (GW) y ubicada en un desierto con temperaturas extremas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.infobae.com/resizer/v2/2QJ52U3ZINHQBF5ZAPAXCI3MXM.jpg?auth=5ffcd157ca2fbb3010fc2d23ab6627d5b58c358eb6e0dc6c66c793d1df1148a1&smart=true&width=1200&height=675&quality=85" class="d-block w-100" alt="Imagen 2">
+                <div class="carousel-caption text-white">
+                    <h3>Energia</h3>
+                    <p>La energía solar ya es más barata que los combustibles fósiles
+                        Según la Agencia Internacional de Energía (IEA), en muchas regiones del mundo, generar electricidad con paneles solares cuesta menos que con carbón o gas natural, lo que acelera la transición energética.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.blogs.es/98716a/science-in-hd-yqej8hq8y2o-unsplash/1366_2000.jpg" class="d-block w-100" alt="Imagen 3">
+                <div class="carousel-caption text-white">
+                    <h3>Granjas</h3>
+                    <p>Algunas granjas solares combinan energía y agricultura
+                        El concepto de "agrovoltaica" permite instalar paneles solares sobre cultivos, aprovechando la sombra para mejorar la producción agrícola y optimizando el uso del suelo.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+ 
+        <section id="exploratorio" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Explora</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark">
+                            Las granjas solares son instalaciones diseñadas para la producción a gran escala de energía renovable mediante paneles fotovoltaicos. 
+                            Factores clave incluyen la ubicación óptima con alta radiación solar, eficiencia de conversión de paneles (>20%), almacenamiento con baterías de litio y la conexión a la red eléctrica. 
+                            Su crecimiento ha sido exponencial, con una reducción del 80% en costos en la última década. Además, contribuyen a la reducción de emisiones de CO₂ y diversifican la matriz energética global.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/xKxrkht7CpY" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="estudios" class="my-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://www.supplychaindemexico.com.mx/wp-content/uploads/2023/02/energias-renovables-1200x675.jpeg" class="card-img-top" alt="Curso básico">
+                            <div class="card-body">
+                                <h5 class="card-title">Análisis de los incentivos económicos en la capacidad instalada de energía solar fotovoltaica en Colombia</h5>
+                                <p class="card-text">Debido a la caída abrupta a nivel mundial del costo nivelado de las tecnologías renovables no convencionales para la generación de energía con estas fuentes (en el caso de los mercados en Estados Unidos entre 39 y 152 USD/MWh para la energía solar fotovoltaica y entre 26 y 50 USD/MWh para la eólica), se ha sustituido la utilización de mecanismos como las Feed in Tariff por las subastas, como un mecanismo de mercado viable para incentivar la inversión en estas fuentes de generación.</p>
+                                <a href="http://www.scielo.org.co/scielo.php?pid=S0120-25962020000200023&script=sci_arttext" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://kpnenergy.com/wp-content/uploads/2022/05/energia-fotovoltaica.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                            <div class="card-body">
+                                <h5 class="card-title">Prefactibilidad granja solar fotovoltaica</h5>
+                                <p class="card-text">En el tema de paneles fotovoltaicos, Colombia se encuentra atrasada con respecto a los grandes paises industrializados pioneros en este tipo de energía. China tiene la mayor capacidad instalada de paneles fotovoltaicos (fv) por sus siglas en inglés, en el mundo con 131,1GW, seguida de Estados Unidos con 51GW de capacidad instalada y en tercer lugar está Japón con 49GW instalados según la REN 21 en su reporte anual (Renewable Energy Policy. Network - REN 21, 2018). Colombia timidamente posee alrededor de 20MW según la UPME (Unidad de Planeación Minero energética - UPME, 2015), de capacidad instalada, muy poco con respecto al potencial de generación que tiene el territorio nacional.</p>
+                                <a href="https://red.uao.edu.co/bitstream/10614/11284/5/T08672.pdf" target= "_blank" class="btn btn-warning">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://noticiasdelaciencia.com/upload/images/03_2024/3242_phpndbkin65f1973122db0.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                            <div class="card-body">
+                                <h5 class="card-title">Energía Solar en el Futuro</h5>
+                                <p class="card-text">Explora las tendencias y avances en la industria solar.</p>
+                                <a href="#" class="btn btn-danger">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section id="intermedio" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Indaga</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark">
+                            Las granjas solares son instalaciones diseñadas para la producción a gran escala de energía renovable mediante paneles fotovoltaicos. 
+                            Factores clave incluyen la ubicación óptima con alta radiación solar, eficiencia de conversión de paneles (>20%), almacenamiento con baterías de litio y la conexión a la red eléctrica. 
+                            Su crecimiento ha sido exponencial, con una reducción del 80% en costos en la última década. Además, contribuyen a la reducción de emisiones de CO₂ y diversifican la matriz energética global.
+                        </p>
+
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/0elhIcPVtKE" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estudios" class="my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.energiasolar.com.co/wp-content/uploads/2016/01/energia-solar-y-eolica-en-medellin-antioquia-colombia-latinoamerica-600x387.jpg" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Análisis de los incentivos económicos en la capacidad instalada de energía solar fotovoltaica en Colombia</h5>
+                            <p class="card-text">Debido a la caída abrupta a nivel mundial del costo nivelado de las tecnologías renovables no convencionales para la generación de energía con estas fuentes (en el caso de los mercados en Estados Unidos entre 39 y 152 USD/MWh para la energía solar fotovoltaica y entre 26 y 50 USD/MWh para la eólica), se ha sustituido la utilización de mecanismos como las Feed in Tariff por las subastas, como un mecanismo de mercado viable para incentivar la inversión en estas fuentes de generación.</p>
+                            <a href="https://riunet.upv.es/handle/10251/196832" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://gruposolinc.com/wp-content/uploads/2018/12/Energia-solar-aprovechada-por-paneles-solares-1024x585.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño de Granjas Solares</h5>
+                            <p class="card-text">Aprende cómo diseñar, calcular y optimizar un sistema solar eficiente.</p>
+                            <a href="#" class="btn btn-warning">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://digitalagro.com.br/wp-content/uploads/2020/06/energia-solar-f-1536x864.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Energía Solar en el Futuro</h5>
+                            <p class="card-text">Explora las tendencias y avances en la industria solar.</p>
+                            <a href="#" class="btn btn-danger">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="avanzado" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Nivel Avanzado</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark">
+                            Las granjas solares son instalaciones diseñadas para la producción a gran escala de energía renovable mediante paneles fotovoltaicos. 
+                            Factores clave incluyen la ubicación óptima con alta radiación solar, eficiencia de conversión de paneles (>20%), almacenamiento con baterías de litio y la conexión a la red eléctrica. 
+                            Su crecimiento ha sido exponencial, con una reducción del 80% en costos en la última década. Además, contribuyen a la reducción de emisiones de CO₂ y diversifican la matriz energética global.
+                        </p>
+                        <a href="http://www.scielo.org.co/scielo.php?pid=S0120-25962020000200023&script=sci_arttext" target="_blank" class="btn btn-danger fw-bold px-4 py-2">
+                            📖 Leer estudio científico
+                        </a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dB6HG7Z_1fc" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estudios" class="my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://cdn.pixabay.com/photo/2024/02/24/10/48/solar-panels-8593759_1280.png" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Análisis de los incentivos económicos en la capacidad instalada de energía solar fotovoltaica en Colombia</h5>
+                            <p class="card-text">Debido a la caída abrupta a nivel mundial del costo nivelado de las tecnologías renovables no convencionales para la generación de energía con estas fuentes (en el caso de los mercados en Estados Unidos entre 39 y 152 USD/MWh para la energía solar fotovoltaica y entre 26 y 50 USD/MWh para la eólica), se ha sustituido la utilización de mecanismos como las Feed in Tariff por las subastas, como un mecanismo de mercado viable para incentivar la inversión en estas fuentes de generación.</p>
+                            <a href="http://www.scielo.org.co/scielo.php?pid=S0120-25962020000200023&script=sci_arttext" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://enricgomez.b-cdn.net/wp-content/uploads/2021/02/online-courses.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño de Granjas Solares</h5>
+                            <p class="card-text">Aprende cómo diseñar, calcular y optimizar un sistema solar eficiente.</p>
+                            <a href="#" class="btn btn-warning">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://d11cuk1a0j5b57.cloudfront.net/blog/wp-content/uploads/2022/08/18125803/Mejores-plataformas-de-cursos-768x403.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Energía Solar en el Futuro</h5>
+                            <p class="card-text">Explora las tendencias y avances en la industria solar.</p>
+                            <a href="#" class="btn btn-danger">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        
+        <section id="cursos" class="my-5">
+            <h2 class="text-center text-success">Cursos Recomendados</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://winblog.s3.amazonaws.com/blog/wp-content/uploads/2022/09/Conoce-las-plataformas-de-cursos-online-que-necesitas.png" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Básico de Energía Solar</h5>
+                            <p class="card-text">Conceptos fundamentales de la energía fotovoltaica y su aplicación en el mundo real.</p>
+                            <a href="#" class="btn btn-primary">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://enricgomez.b-cdn.net/wp-content/uploads/2021/02/online-courses.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño de Granjas Solares</h5>
+                            <p class="card-text">Aprende cómo diseñar, calcular y optimizar un sistema solar eficiente.</p>
+                            <a href="#" class="btn btn-warning">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://d11cuk1a0j5b57.cloudfront.net/blog/wp-content/uploads/2022/08/18125803/Mejores-plataformas-de-cursos-768x403.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Energía Solar en el Futuro</h5>
+                            <p class="card-text">Explora las tendencias y avances en la industria solar.</p>
+                            <a href="#" class="btn btn-danger">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; 2025 Granjas Solares ONG - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>

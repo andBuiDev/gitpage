@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granjas Solares - ONG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <style>
+        .carousel-inner {
+            max-height: 400px; /* Ajusta la altura del carrusel */
+        }
+        .carousel-item img {
+            height: 400px; /* Ajusta la altura de las imágenes */
+            object-fit: cover; /* Evita distorsiones */
+        }
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Granjas Solares</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="construccion.html">Construcción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aprendizaje.html">Aprendizaje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Beneficios.html">Casos de Éxito</a></li>                   
+                    <li class="nav-item"><a class="nav-link" href="impacto.html">Impacto Ambiental</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://storage.googleapis.com/site.esss.co/8bd7b5da-thumb-blog-tendencias-de-tecnologia-nas-pesquisas-em-sustentabilidade-e-energia-renovavel.jpg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption text-white">
+                    <h3>Plantas</h3>
+                    <p>La planta solar más grande del mundo ocupa más de 56 km²
+                        La Bhadla Solar Park, en India, es la granja solar más grande del mundo, con una capacidad de 2.25 gigavatios (GW) y ubicada en un desierto con temperaturas extremas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.infobae.com/resizer/v2/2QJ52U3ZINHQBF5ZAPAXCI3MXM.jpg?auth=5ffcd157ca2fbb3010fc2d23ab6627d5b58c358eb6e0dc6c66c793d1df1148a1&smart=true&width=1200&height=675&quality=85" class="d-block w-100" alt="Imagen 2">
+                <div class="carousel-caption text-white">
+                    <h3>Energia</h3>
+                    <p>La energía solar ya es más barata que los combustibles fósiles
+                        Según la Agencia Internacional de Energía (IEA), en muchas regiones del mundo, generar electricidad con paneles solares cuesta menos que con carbón o gas natural, lo que acelera la transición energética.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.blogs.es/98716a/science-in-hd-yqej8hq8y2o-unsplash/1366_2000.jpg" class="d-block w-100" alt="Imagen 3">
+                <div class="carousel-caption text-white">
+                    <h3>Granjas</h3>
+                    <p>Algunas granjas solares combinan energía y agricultura
+                        El concepto de "agrovoltaica" permite instalar paneles solares sobre cultivos, aprovechando la sombra para mejorar la producción agrícola y optimizando el uso del suelo.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+ 
+        <section id="exploratorio" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Explora</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark" style="text-align: justify;">
+                            Las granjas solares capturan la energía del sol con paneles fotovoltaicos y la convierten en electricidad limpia y renovable. Ubicadas en zonas con alta radiación, pueden alimentar ciudades enteras y reducir la dependencia de combustibles fósiles. Su eficiencia ha aumentado con paneles bifaciales y baterías avanzadas, permitiendo almacenamiento y suministro constante. Además, impulsan la economía verde, generan empleo y disminuyen emisiones de CO₂. Grandes proyectos como Bhadla Solar Park en India o Tengger Desert Solar Park en China demuestran su impacto global. La energía solar es el futuro de la sostenibilidad.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/xKxrkht7CpY" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="estudios" class="my-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://www.supplychaindemexico.com.mx/wp-content/uploads/2023/02/energias-renovables-1200x675.jpeg" class="card-img-top" alt="Curso básico">
+                            <div class="card-body">
+                                <h5 class="card-title">Análisis de los incentivos económicos en la capacidad instalada de energía solar fotovoltaica en Colombia</h5>
+                                <p class="card-text" style="text-align: justify;">Debido a la caída abrupta a nivel mundial del costo nivelado de las tecnologías renovables no convencionales para la generación de energía con estas fuentes (en el caso de los mercados en Estados Unidos entre 39 y 152 USD/MWh para la energía solar fotovoltaica y entre 26 y 50 USD/MWh para la eólica), se ha sustituido la utilización de mecanismos como las Feed in Tariff por las subastas, como un mecanismo de mercado viable para incentivar la inversión en estas fuentes de generación.</p>
+                                <a href="http://www.scielo.org.co/scielo.php?pid=S0120-25962020000200023&script=sci_arttext" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://kpnenergy.com/wp-content/uploads/2022/05/energia-fotovoltaica.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                            <div class="card-body">
+                                <h5 class="card-title">Prefactibilidad granja solar fotovoltaica</h5>
+                                <p class="card-text" style="text-align: justify;">En el tema de paneles fotovoltaicos, Colombia se encuentra atrasada con respecto a los grandes paises industrializados pioneros en este tipo de energía. China tiene la mayor capacidad instalada de paneles fotovoltaicos (fv) por sus siglas en inglés, en el mundo con 131,1GW, seguida de Estados Unidos con 51GW de capacidad instalada y en tercer lugar está Japón con 49GW instalados según la REN 21 en su reporte anual (Renewable Energy Policy. Network - REN 21, 2018). Colombia timidamente posee alrededor de 20MW según la UPME (Unidad de Planeación Minero energética - UPME, 2015), de capacidad instalada, muy poco con respecto al potencial de generación que tiene el territorio nacional.</p>
+                                <a href="https://red.uao.edu.co/bitstream/10614/11284/5/T08672.pdf" target= "_blank" class="btn btn-warning">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <img src="https://noticiasdelaciencia.com/upload/images/03_2024/3242_phpndbkin65f1973122db0.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                            <div class="card-body">
+                                <h5 class="card-title">La energía fotovoltaica</h5>
+                                <p class="card-text" style="text-align: justify;">El sol, es una de las fuentes de energía “ilimitada”, pues la energía luminosa que incide de manera directa a la superficie de la tierra, la cual si es almacenada por medio de dispositivos fotovoltaicos (células fotovoltaicas) puede ser implementadas para satisfacer necesidades que involucran la distribución de energía, la cual es usada para las necesidades cotidianas, en la actualidad los mercados de los países desarrollados, optan por la aplicación de sistemas fotovoltaicos, como suministro de energía.</p>
+                                <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=9014651" target="_blank" class="btn btn-danger">Consultar Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section id="intermedio" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Indaga</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark" style="text-align: justify;">
+                            Las granjas solares modernas integran paneles fotovoltaicos de alta eficiencia (>22%), seguidores solares para maximizar la captación de luz y sistemas de almacenamiento con baterías de ion-litio. La interconexión con redes inteligentes permite gestionar la demanda y mejorar la estabilidad del suministro. Factores clave en su diseño incluyen la orientación óptima de los paneles, la reducción de pérdidas por sombra y el uso de inteligencia artificial para predecir la producción energética. Además, la agrovoltaica y el uso de paneles flotantes en cuerpos de agua optimizan el espacio y reducen la evaporación. La energía solar sigue evolucionando hacia un modelo más eficiente y escalable.
+                        </p>
+
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/74FFTL3Vljw" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estudios" class="my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.energiasolar.com.co/wp-content/uploads/2016/01/energia-solar-y-eolica-en-medellin-antioquia-colombia-latinoamerica-600x387.jpg" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Making solar projects cheaper and faster with portable factories</h5>
+                            <p class="card-text" style="text-align: justify;">As the price of solar panels has plummeted in recent decades, installation costs have taken up a greater share of the technology’s overall price tag. The long installation process for solar farms is also emerging as a key bottleneck in the deployment of solar energy.</p>
+                            <a href="https://news.mit.edu/2025/charge-robotics-makes-solar-projects-cheaper-faster-portable-factories-0312" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://gruposolinc.com/wp-content/uploads/2018/12/Energia-solar-aprovechada-por-paneles-solares-1024x585.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Key takeaways from our Solar Farm Design Guide</h5>
+                            <p class="card-text" style="text-align: justify;">Solar is on track to become the leading source of clean energy. It accounted for 75% of all new renewables in 2023 — and it’s only just starting. The sun will generate over 318 billion kilowatt-hours of power for the US in 2024, 34 billion more than hydropower. Globally, solar and wind are projected to make up a record-breaking 96% of renewable energy additions by 2028.</p>
+                            <a href="https://ratedpower.com/blog/key-takeaways-solar-farm-deisgn-guide/"  target= "_blank" class="btn btn-warning">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://digitalagro.com.br/wp-content/uploads/2020/06/energia-solar-f-1536x864.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Efficiency analysis of solar farms by UAV-based thermal monitoring</h5>
+                            <p class="card-text" style="text-align: justify;">Solar energy is a rapidly growing industry, and the performance analysis and maintenance of solar farms are crucial for ensuring their photovoltaics efficiency and longevity. In this context, many solar farms are established and it is crucial for energy producers to operate these farms efficiently. However, control of solar degradation panels locally takes time and control procedures are a challenge for the producers particularly for large farms.</p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S2215098624000740" target="_blank" class="btn btn-danger">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="avanzado" class="mb-5 py-5 bg-light shadow-sm rounded">
+            <div class="container">
+                <h2 class="text-danger text-center fw-bold mb-4">Avanza</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="fs-5 text-dark" style="text-align: justify;">
+                            El desarrollo de celdas fotovoltaicas de perovskita ha permitido alcanzar eficiencias superiores al 30% en condiciones de laboratorio, superando el límite de las celdas de silicio tradicionales (~26.7%). Además, la implementación de inversores con modulación multinivel mejora la conversión de corriente continua a alterna con una eficiencia del 98%. En cuanto a almacenamiento, las baterías de flujo redox ofrecen una vida útil superior a 20 años con ciclos de carga-descarga optimizados para redes de alta demanda. Estudios de la Agencia Internacional de Energía (IEA) indican que la capacidad instalada global de energía solar superará los 8 teravatios (TW) para 2050, cubriendo hasta el 30% de la demanda eléctrica mundial.
+                        </p>
+
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/0elhIcPVtKE" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estudios" class="my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://top10malaysia.com/wp-content/uploads/2024/10/solar-panels.jpg" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Solar-photovoltaic-power-sharing-based design optimization of distributed energy storage systems for performance improvements</h5>
+                            <p class="card-text" style="text-align: justify;">Proper energy storage system design is important for performance improvements in solar power shared building communities. Existing studies have developed various design methods for sizing the distributed batteries and shared batteries. For sizing the distributed batteries, most of the design methods are based on single building energy mismatch, but they neglect the potentials of energy sharing in reducing battery capacity, thereby easily causing battery oversizing problem. </p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0360544221001808" target= "_blank" class="btn btn-primary">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://static.euronews.com/articles/stories/08/94/48/02/1920x1080_cmsv2_d90a27f5-93f8-5bed-8837-0af2b1b54aa7-8944802.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Economic indicators evaluation to study the feasibility of a solar agriculture farm: A case study</h5>
+                            <p class="card-text" style="text-align: justify;">The 209 kWp solar agricultural farm at Dayalbagh Educational Institute's Dairy Campus in Agra, India, is the subject of this economic analysis. This study analyzes economic indicators relevant to agriculture food production, such as gross financial margins, farm profits, and cost-benefit ratios.</p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S2772940024000080" target= "_blank" class="btn btn-warning">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://lh3.googleusercontent.com/_SASg0LOtv3Iq6BxUY4qRIK8fHIkRDfkLWZp1WaIwiyUQfD2UedNWKsKK_zJvclIoA2Jo4sVcmdAGs3GgeVI7uCJfR0NwpDwsHw=w904-h509-rw" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Monte-Carlo-based simulations of radiative transfer in photovoltaic solar farms</h5>
+                            <p class="card-text" style="text-align: justify;">Photovoltaic (PV) solar farms, composed of arrays of photovoltaic panels, play a vital role in our effort to reduce the reliance on fossil fuels and mitigate global warming. Meanwhile, these panels alter surface radiative properties and can affect the local surface energy budget.</p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0022407325000792" target= "_blank" class="btn btn-danger">Consultar Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        
+        <section id="cursos" class="my-5">
+            <h2 class="text-center text-success">Cursos Recomendados</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://winblog.s3.amazonaws.com/blog/wp-content/uploads/2022/09/Conoce-las-plataformas-de-cursos-online-que-necesitas.png" class="card-img-top" alt="Curso básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Básico de Energía Solar</h5>
+                            <p class="card-text" style="text-align: justify;">Conceptos fundamentales de la energía fotovoltaica y su aplicación en el mundo real.</p>
+                            <a href="https://www.udemy.com/course/curso-practico-de-energia-solar-fotovoltaica/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_Gamma_NonP_la.ES_cc.ROW-Spanish&campaigntype=Search&portfolio=ROW-Spanish&language=ES&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_167955696951_._ad_706510832595_._kw__._de_c_._dm__._pl__._ti_dsa-2061826688337_._li_9198551_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwqIm_BhDnARIsAKBYcms3-Mt34fegd1I_HagU2SLnHDENYUEooIoikL4R-D5xMd3TN7UcCSoaAtm6EALw_wcB&couponCode=ST22MT240325G1" target= "_blank" class="btn btn-primary">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://enricgomez.b-cdn.net/wp-content/uploads/2021/02/online-courses.jpg" class="card-img-top" alt="Diseño de granjas solares">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño de Granjas Solares</h5>
+                            <p class="card-text" style="text-align: justify;">Aprende cómo diseñar, calcular y optimizar un sistema solar eficiente.</p>
+                            <a href="https://educacioncontinua.uniandes.edu.co/es/programas/fundamentos-de-diseno-y-gestion-de-proyectos-solares-fotovoltaicos" target="_blank" class="btn btn-warning">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://d11cuk1a0j5b57.cloudfront.net/blog/wp-content/uploads/2022/08/18125803/Mejores-plataformas-de-cursos-768x403.jpg" class="card-img-top" alt="Futuro de la energía solar">
+                        <div class="card-body">
+                            <h5 class="card-title">Construcción operación y mantenimiento</h5>
+                            <p class="card-text" style="text-align: justify;">Aprende a construir monitorear y operar granjas solares</p>
+                            <a href="https://www.udemy.com/course/learn-about-solar-farm-construction-and-operation/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_GammaCatchall_NonP_la.EN_cc.ROW-English&campaigntype=Search&portfolio=ROW-English&language=EN&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_169801645584_._ad_700876640602_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_9198551_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwy46_BhDOARIsAIvmcwOAPVldaJInnD0D59ZUHZohuzYI9aPjWmvl2eDpXmm11y9PKk3vWdUaAsZuEALw_wcB" target="_blank" class="btn btn-danger">Acceder al curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-success text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Ubicación</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509371!2d144.9537353155043!3d-37.81720974202171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fa0b70c2b4f0!2sMelbourne%20Central!5e0!3m2!1sen!2sau!4v1645450045644!5m2!1sen!2sau" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Contacto</h5>
+                            <p>Email: info@granjasolares.org</p>
+                            <p>Teléfono: +123 456 7890</p>
+                            <p>Dirección: Call 44a # 70-27</p>
+                            <p>Medellín - Antioquia - Colombia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 Granjas Solares ONG - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
